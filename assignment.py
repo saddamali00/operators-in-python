@@ -25,13 +25,10 @@ print(a<=b)
 print(a>=b)
 
 # LOGICAL OPERATORS
-print(True and True)
-print(True and False)
-print(False and False)
-print(True or True)
-print(True or False)
-print(False or False)
-print(not b)
+print(a <b and a>b)
+print(a<b and b<a)
+print(a<b or a>b)
+print(a<b or b<a)
 
 # ASSIGNMENT OPERATORS
 
